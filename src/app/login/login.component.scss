@@ -1,0 +1,15 @@
+.example-container{
+  margin-left: 8px;
+}
+.example-container > * {
+  width: 100%;
+}
+.example-right-align {
+  text-align: right;
+}
+
+input.example-right-align::-webkit-outer-spin-button,
+input.example-right-align::-webkit-inner-spin-button {
+  display: none;
+}
+
