@@ -1,0 +1,25 @@
+.center-content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.copyright{
+    align-items: center;
+    font-size: 18px;
+    color: #fefdfd;
+    padding: 10px;
+}
+
+.copyright a{
+    color: #fefdfd;
+    font-size: 19px;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+.copyright a:hover{
+    color: #030303;
+    text-decoration: none;
+}
