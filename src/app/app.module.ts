@@ -18,18 +18,22 @@ import { HttpClientModule } from '@angular/common/http';
 import {MatTableModule} from '@angular/material/table';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatSortModule } from '@angular/material/sort';
+import {MatCardModule} from '@angular/material/card';
+
 
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
-// import { HomeComponent } from './home/home.component';
 import { FeaturesComponent } from './features/features.component';
 import { EmploeesComponent } from './emploees/emploees.component';
 import { AddComponent } from './add/add.component';
 import { FotterComponent } from './fotter/fotter.component';
 import { HomeComponent } from './home/home.component';
+import { AboutusComponent} from './aboutus/aboutus.component';
+import { ContactComponent } from './contact/contact.component';
+
 
 
 
@@ -38,13 +42,16 @@ import { HomeComponent } from './home/home.component';
     AppComponent,
     LoginComponent,
     RegisterComponent,
-    // HomeComponent,
+    HomeComponent,
     FeaturesComponent,
     EmploeesComponent,
     AddComponent,
     FotterComponent,
     HomeComponent,
+    AboutusComponent,
+    ContactComponent
   ],
+
   imports: [
     BrowserModule,
     AppRoutingModule,
@@ -65,6 +72,7 @@ import { HomeComponent } from './home/home.component';
     HttpClientModule,
     MatSortModule,
     MatPaginatorModule,
+    MatCardModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

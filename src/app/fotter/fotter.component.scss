@@ -1,3 +1,6 @@
+.row{
+  background-color: #e3f2fd;
+}
 .center-content {
   flex: 1;
   display: flex;
@@ -22,4 +25,46 @@
 .copyright a:hover{
     color: #030303;
     text-decoration: none;
+}
+.links{
+   list-style: none;
+   text-decoration: none;
+  color: black;
+ }
+.links li{
+  padding: 0 80px 0 30px;
+  text-decoration: none;
+  color: black;
+}
+ .links li a{
+  text-align: center;
+  text-decoration: none;
+ color: black;
+}
+.logo{
+ color: blue;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.logo:hover{
+  color: #3b47d2;
+  font-weight: 600;
+}
+.fotter1, .fotter2, .fotter3{
+  margin: 25px 0px 0px 20px;
+}
+
+.fotter1 ul{
+  list-style: none;
+  text-decoration: none;
+  color: black;
+}
+.fotter1 ul li a{
+  padding: 0 80px 0 30px;
+  text-decoration: none;
+  color: black;
+}
+.fotter1 ul li a:hover{
+  color: #020202;
+  font-weight: 600;
 }
