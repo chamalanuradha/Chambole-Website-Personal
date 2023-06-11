@@ -1,15 +1,14 @@
-.example-container{
-  margin-left: 8px;
+.form-head{
+  text-align: center;
+  font-size: 26px;
+  font-weight: bold;
+  color: hsl(0, 72%, 58%);
+  padding: 0px;
+  margin-bottom: 10px;
 }
-.example-container > * {
-  width: 100%;
+.action{
+  padding: 0 20px 0 20px;
+  button{
+    flex: 1;
+  }
 }
-.example-right-align {
-  text-align: right;
-}
-
-input.example-right-align::-webkit-outer-spin-button,
-input.example-right-align::-webkit-inner-spin-button {
-  display: none;
-}
-
